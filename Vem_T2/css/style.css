@@ -1,0 +1,144 @@
+/* ======== LAYOUT GLOBAL ======== */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #eef2f7;
+    font-family: Arial, sans-serif;
+}
+
+/* ======== CABEÇALHO ======== */
+
+header {
+    background: #0077ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+}
+
+/* ======== MENU SUPERIOR ======== */
+
+.topmenu {
+    background: #ffffff;
+    padding: 12px;
+    text-align: center;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+
+.topmenu a {
+    color: #0077cc;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topmenu a:hover {
+    text-decoration: underline;
+    color: #005fa3;
+}
+
+/* ======== CARD ======== */
+
+.card {
+    background: white;
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 12px rgba(0,0,0,0.12);
+}
+
+/* ======== TEXTOS ======== */
+
+h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* ======== FORMULÁRIOS ======== */
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    background: #fafafa;
+}
+
+textarea {
+    height: 120px;
+}
+
+/* ======== BOTÕES ======== */
+
+button, .btn {
+    background: #0077ff;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.2s;
+    margin-top: 15px;
+}
+
+button:hover, .btn:hover {
+    background: #005fcc;
+}
+
+/* ======== TABELAS ======== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+thead {
+    background: #0077ff;
+    color: white;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+tbody tr:nth-child(even) {
+    background: #f3f7fc;
+}
+
+tbody tr:hover {
+    background: #dce9ff;
+}
+
+/* ======== BOTÃO EXCLUIR ======== */
+
+.btn-delete {
+    background: #ff4a4a !important;
+}
+
+.btn-delete:hover {
+    background: #cc0000 !important;
+}

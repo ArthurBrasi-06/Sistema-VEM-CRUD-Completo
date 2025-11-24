@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar Evento</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+<header>Sistema VEM</header>
+
+<nav class="topmenu">
+    <a href="index.html">Início</a>
+    <a href="usuario_cadastro.html">Cadastrar Usuário</a>
+    <a href="usuario_listar.html">Listar Usuários</a>
+    <a href="evento_cadastro.html">Cadastrar Evento</a>
+    <a href="evento_listar.html">Listar Eventos</a>
+    <a href="pagina_cadastro.html">Cadastrar Página</a>
+    <a href="pagina_listar.html">Listar Páginas</a>
+</nav>
+
+<div class="card">
+    <h2>Cadastrar Evento</h2>
+
+    <label>Título:</label>
+    <input id="titulo" type="text">
+
+    <label>Descrição:</label>
+    <textarea id="descricao"></textarea>
+
+    <label>Data do Evento:</label>
+    <input id="data_evento" type="date">
+
+    <label>Local:</label>
+    <input id="local_evento" type="text">
+
+    <label>ID do Usuário (Criador):</label>
+    <input id="id_usuario" type="number">
+
+    <button onclick="cadastrarEvento()">Cadastrar</button>
+</div>
+
+</body>
+</html>
